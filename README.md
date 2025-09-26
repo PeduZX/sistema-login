@@ -13,3 +13,6 @@ senha VARCHAR(255) NOT NULL
 
 DROP DATABASE backFront;
 SELECT * FROM users;
+
+
+<img width="708" height="128" alt="image" src="https://github.com/user-attachments/assets/dcabecf7-c2ef-4b0a-a0c2-055927ac5110" />
