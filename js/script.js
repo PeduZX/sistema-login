@@ -20,6 +20,7 @@ async function cadastrar() {
 
 // Função para login de usuário
 async function login() {
+
   const email = document.getElementById('email').value;
   const senha = document.getElementById('senha').value;
 
@@ -31,7 +32,8 @@ async function login() {
     });
 
     const data = await response.json();
-    document.getElementById('msg').innerText = data.message || data.error;
+    alert(data.message)
+    document.getElementById('msg').innerText = data.message || data.error;  
   } catch (err) {
     document.getElementById('msg').innerText = 'Erro no login';
   }
